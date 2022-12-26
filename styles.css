@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: gray;
+}
+
+nav {
+  background-color: rgb(57, 57, 57);
+  border: 5px solid white;
+  border-radius: 5px;
+  height: 30px;
+  width: 50%;
+  margin: auto auto;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto auto;
+  width: 80%;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  font-size: 22px;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  background-color: rgb(57, 57, 57);
+  border: 3px solid white;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  background-color: rgb(57, 57, 57);
+  border: 3px solid white;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 770px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  background-color: rgb(57, 57, 57);
+  border: 3px solid white;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  background-color: rgb(57, 57, 57);
+  border: 3px solid white;
+  width: 30%;
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+}
+
+footer > h2 {
+  color: white;
+}
